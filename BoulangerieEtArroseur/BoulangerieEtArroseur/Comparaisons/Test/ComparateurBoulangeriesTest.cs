@@ -15,9 +15,9 @@ namespace BoulangerieEtArroseur.Comparaisons.Test
             int positionMeilleureBoulangerie = comparateur.GetMeilleureBoulangerie();
             Assert.AreEqual(0, positionMeilleureBoulangerie);
 
-           /* float monnaie = 6.0f;
+           float monnaie = 6.0f;
             int nbMaxBaguettes = comparateur.GetNombreMaxBaguettes(monnaie);
-            Assert.AreEqual(10, nbMaxBaguettes);*/
+            Assert.AreEqual(10, nbMaxBaguettes);
         }
 
         [TestMethod]

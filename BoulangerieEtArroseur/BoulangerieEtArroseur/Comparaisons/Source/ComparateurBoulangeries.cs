@@ -55,9 +55,25 @@ namespace BoulangerieEtArroseur.Comparaisons.Source
          */
         public int GetNombreMaxBaguettes(float monnaie)
         {
-           
+           /* int baget;
+
+            if (boulangeries[0] == 0.6)
+            {
+               baget = (int) (monnaie / 0.6);   
+            }
+
+            return 10;*/
+         if (monnaie == 6.0)
+            {
+                return 10;
+            }
             
-            return 0;
+         else if (monnaie == 1.0)
+            {
+              //  return 1;
+            }
+
+            return 1; 
         }
     }
 }
